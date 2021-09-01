@@ -1,6 +1,6 @@
-import serial  # Serial imported for Serial communication
+import serial  # Install using 'pip install pyserial'
 import time  # Required to use delay functions
-import pyautogui
+import pyautogui # Install using 'pip install pyautogui'
 
 ArduinoSerial = serial.Serial('com5', 9600)  # Create Serial port object called arduinoSerialData
 time.sleep(2)
